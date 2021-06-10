@@ -1,0 +1,35 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="kr" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>TO DO LIST</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <h1>TO DO LIST</h1>
+
+
+  <!--추가-->
+  <div class="input-group mb-3" style="width: 100%;">
+    <input type="text" class="form-control" id="input">
+    <button class="btn btn-outline-secondary" type="button" id="button">입력</button>
+    </div>
+
+  <!--검색-->
+  <div class="searchbox" id="list">
+    <div class="header">
+      <h1>Search</h1>
+      <input onkeyup="filter()" type="text" id="value" placeholder="Type to Search">
+    </div>
+
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
